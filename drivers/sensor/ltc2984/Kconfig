@@ -1,0 +1,15 @@
+#
+# Copyright (c) 2019 Geanix ApS
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+config LTC2984
+	bool "LTC2984 Temperature driver"
+	depends on SPI
+	help
+	  Enable LTC2984 driver.
+
+	  The LTC2984 is a multi-channel ADC, that
+	  directly Digitizes 2-, 3-, or 4-Wire RTDs,
+	  Thermocouples, Thermistors, and Diodes.
